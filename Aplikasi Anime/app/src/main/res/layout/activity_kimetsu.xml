@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kimetsu">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="456dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kimetsuyaiba" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="148dp"
+        android:text="Kimetsu No Yaiba"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="411dp"
+        android:layout_height="414dp"
+        android:layout_marginTop="4dp"
+        android:text="Anime Kimetsu no Yaiba menceritakan seorang bernama Tanjirou Kamado, pemuda sulung dari keluarga yang kurang mampu dan tinggal di pedalaman gunung pada era Taisho. Sejak dahulu kala, terdapat rumor mengenai Oni (Iblis Pemakan Manusia) yang bersembunyi di hutan. Karena itu, penduduk setempat tidak pernah berani keluar di malam hari. Legenda mengatakan bahwa Pembasmi Oni juga berkeliaran di malam hari dan memburu iblis yang haus darah. Bagi Tanjirou yang belum mengetahui apa-apa, hal itu hanyalah sekedar rumor belaka dan tidak akan menyebabkan masalah di kehidupannya.\n
+Skor : 8.93\n
+Produser : Aniplex, Shueisha\n
+Tipe : TV\n
+Status : Completed\n
+Total Eps : 26 Eps\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Apr 6, 2019\n
+Studio : Ufotable\n
+Genre : Action, Demons, Historical, Shounen, Supernatural"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

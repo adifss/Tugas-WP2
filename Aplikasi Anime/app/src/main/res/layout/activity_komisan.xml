@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Komisan">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="451dp"
+        android:layout_height="270dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/komisan" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="108dp"
+        android:text="Komi-san wa, Comyushou desu"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="398dp"
+        android:layout_height="413dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:text="Ini hari pertama Shouko Komi di SMA Itan yang bergengsi. Dengan rambut hitam panjang, tinggi dan penampilan yang anggun, Komi langsung menarik perhatian siapa pun yang bertemu dengannya. Namun, Komi memiliki satu masalah, ia sangat buruk dalam berkomunikasi dengan orang lain. Hitohito Tadano, siswa biasa yang memiliki moto “membaca situasi dan hindari masalah”, tapi ia segera menyadari posisi duduknya yang di sebelah Komi telah membuatnya menjadi musuh semua orang di kelasnya.\n
+Skor : ?\n
+Produser : Half H.P Studio, Shogakukan\n
+Tipe : TV\n
+Status : Ongoing\n
+Total Eps : ?\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Okt 07, 2021\n
+Studio : OLM\n
+Genre : Comedy, School, Shounen, Slice Of Life"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

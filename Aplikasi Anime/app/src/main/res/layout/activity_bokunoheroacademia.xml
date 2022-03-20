@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bokunoheroacademia">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="413dp"
+        android:layout_height="240dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bnh" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="128dp"
+        android:text="Boku no Hero Academia"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView24" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="389dp"
+        android:layout_height="461dp"
+        android:layout_marginEnd="8dp"
+        android:text="bercerita tentang Suatu hari, seorang anak laki-laki berumur empat tahun tiba-tiba menyadari: dunia ini tidak adil. Delapan puluh persen populasi dunia memiliki kemampuan khusus, yang dikenal sebagai quirks, yang telah memberi banyak kekuatan untuk mewujudkan impian masa kecil mereka menjadi pahlawan super. Sayangnya, Izuku Midoriya adalah salah satu dari sedikit yang lahir tanpa keunikan, menderita diskriminasi karenanya.\n
+Skor : 8.43\n
+Produser : Dentsu, Mainichi Broadcasting System, Movic\n
+Tipe : BD\n
+Status : Completed\n
+Total Eps : 24 Eps\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Apr 3, 2016\n
+Studio : Bones\n
+Genre : Action, Comedy,School, Shounen, Super Power"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+</androidx.constraintlayout.widget.ConstraintLayout>

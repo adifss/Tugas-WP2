@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_akunbaru.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_bokunoheroacademia.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_completed.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_gotoubun.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_karakai_jouzu_takagi_san.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_kimetsu.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_komisan.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_menu_utama.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_mierukochan.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_mushoku_tensei.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_onepunchman.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_ongoing.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_pride_of_orange.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_selection_p.xml" value="0.27447916666666666" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_signup.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_takt_op_destiny.xml" value="0.264" />
+        <entry key="..\:/UAS/app/src/main/res/layout/activity_tensura.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

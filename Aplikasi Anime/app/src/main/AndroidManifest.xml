@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uas">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UAS">
+        <activity
+            android:name=".Akunbaru"
+            android:exported="false" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
+            android:name=".Onepunchman"
+            android:exported="false" />
+        <activity
+            android:name=".Bokunoheroacademia"
+            android:exported="false" />
+        <activity
+            android:name=".Tensura"
+            android:exported="false" />
+        <activity
+            android:name=".KarakaiJouzuTakagiSan"
+            android:exported="false" />
+        <activity
+            android:name=".Completed"
+            android:exported="false" />
+        <activity
+            android:name=".MushokuTensei"
+            android:exported="false" />
+        <activity
+            android:name=".TaktOpDestiny"
+            android:exported="false" />
+        <activity
+            android:name=".PrideOfOrange"
+            android:exported="false" />
+        <activity
+            android:name=".Mierukochan"
+            android:exported="false" />
+        <activity
+            android:name=".Ongoing"
+            android:exported="false" />
+        <activity
+            android:name=".SelectionP"
+            android:exported="false" />
+        <activity
+            android:name=".Komisan"
+            android:exported="false" />
+        <activity
+            android:name=".Kimetsu"
+            android:exported="false" />
+        <activity
+            android:name=".Gotoubun"
+            android:exported="false" />
+        <activity
+            android:name=".MenuUtama"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

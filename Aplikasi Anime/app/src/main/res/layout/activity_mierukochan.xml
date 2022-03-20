@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mierukochan">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="403dp"
+        android:layout_height="278dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mierukoch" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:text="Mieruko Chan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="409dp"
+        android:layout_height="425dp"
+        android:text="Ketika kamu melihat “sesuatu” yang seharusnya tidak terlihat. Ketika kamu melihat sesuatu yang seharusnya tidak boleh dilihat. Apa yang akan kamu lakukan?Jika sesuatu itu datang dan berbicara padamu. Apa yang akan kamu lakukan?Apa kamu langsung melarikan diri? Atau belajar hal-hal mistis untuk melawannya?Tapi tidak dengan Miko Yotsuya, gadis SMA yang berusaha bersikap normal dan menganggap sesuatu itu tidak ada meskipun jelas-jelas sosok itu ada di dekatnya dan berbicara padanya.\n
+Skor : 7.55\n
+Produser : Magic Capsule, Kadokawa\n
+Tipe : TV\n
+Status : Ongoing\n
+Total Eps : ?\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Oct 3, 2021\n
+Stduio : Passione\n
+Genre : Comedy, Horror, Supernatural"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

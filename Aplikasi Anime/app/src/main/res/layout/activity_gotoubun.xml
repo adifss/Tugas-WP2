@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gotoubun">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="417dp"
+        android:layout_height="235dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gotoubunhanayome" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="163dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="124dp"
+        android:text="Gotoubun No Hanayome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="381dp"
+        android:layout_height="421dp"
+        android:layout_marginEnd="12dp"
+        android:text="Seorang lelaki SMA yang harus bekerja paruh waktu sebagai guru private untuk membantu 5 saudara perempuan belajar hingga dapat lulus sekolah. Tetapi rintangan dan kesamaan dari ke 5 gadis ini adalah, mereka semua benci belajar dan memiliki nilai yang buruk. Kelima gadis ini menyukai dan ingin melakukan apa saja kecuali belajar. Guru private mereka adalah anak SMA yang cukup pintar dari membaca buku Guru Private Mereka adalah Futarou Uesugi yang membuka les private karena kekurangan uang. dan murid-muridnya ini adalah 5 putri cantik dari pengusaha kaya.\n
+Skor : 7.67\n
+Tipe : TV\n
+Status : Completed\n
+Total Eps : 12\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Jan 11, 2019\n
+Studio : Tezuka Production\n
+Genre : Comedy,Harem, Romance, School, Shounen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

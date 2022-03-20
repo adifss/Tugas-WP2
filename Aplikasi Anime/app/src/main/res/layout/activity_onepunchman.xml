@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Onepunchman">
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="413dp"
+        android:layout_height="244dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/opm" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="156dp"
+        android:text="One Punch Man"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="389dp"
+        android:layout_height="448dp"
+        android:layout_marginEnd="8dp"
+        android:text="Bercerita tentang pemuda bernama Saitama yang terlihat “BIASA,” terlihat tanpa ekspresi, kepala botaknya, fisik yang tidak terlihat bagus. Namun, laki-laki yang terlihat biasa ini, punya masalah yang tidak biasa… Dia adalah pahlawan super yang mencari musuh kuat! Masalahnya, setiap kali Dia bertemu lawan yang terlihat menjanjikan, Dia bisa mengalahkannya dengan satu pukulan. Bisakah Saitama menemukan penjahat super yang bisa memberikan perlawanan berarti untuknya?\n
+Skor : 8.75\n
+Produser : TV Tokyo, Bandai Visual Asatsu DK\n
+Tipe : BD\n
+Status : Completed\n
+Total Eps : 12 Eps\n
+Durasi : 24 Menit\n
+Tanggal Rilis : Oct 5, 2015\n
+Studio : Madhouse\n
+Genre : Action, Comedy, Parody, Sci - fi, Seinen, Super Power, Supernatural"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+</androidx.constraintlayout.widget.ConstraintLayout>
